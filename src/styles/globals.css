@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+	.btn-primary {
+		@apply bg-purple-300 py-3 px-5 rounded-full text-white font-bold hover:bg-purple-400 transition duration-300 ease-in-out focus:scale-95;
+	}
+}
